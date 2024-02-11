@@ -4,8 +4,8 @@ import Heading from "../ui/Heading";
 export default function Services() {
   const expertiseItems = [
     "Web Development",
-    "Web Design",
-    "Wireframing",
+    "App Development",
+    "Graphic Designing",
     "UI/UX Design",
     "Branding",
   ];
@@ -13,12 +13,12 @@ export default function Services() {
   const toolBoxItems = [
     "JavaScript",
     "HTML",
-    "CSS",
-    "Figma",
-    "Webflow",
-    "GSAP",
-    "TailwindCSS",
+    "CSS/SCSS",
+    "Java",
+    "XML",
+    "Android Studio",
     "ReactJS",
+    "Figma",
   ];
 
   return (

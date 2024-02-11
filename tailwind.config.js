@@ -40,7 +40,7 @@ export default {
         'secondary-400': '#D7B3E2',
         'secondary-500': '#AEAE9D',
         'secondary-600': '#92669E',
-        'secondary-700': '#70705C',
+        'secondary-700': '#D7B3E2',
         'accent-400': '#0E0E0C',
         'accent-300': '#1E0126',
         'accent-200': '#4D4D4D',

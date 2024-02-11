@@ -53,6 +53,7 @@
   p,
   span {
     @apply font-grotesk;
+    font-weight: bold
   }
 
   h1,
@@ -60,6 +61,7 @@
   h3,
   h4 {
     @apply font-general tracking-headings;
+    font-weight: bold;
   }
 
   .font-outline-4 {

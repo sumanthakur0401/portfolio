@@ -57,23 +57,14 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0 text-accent-300">
-              I am an independent frontend developer, UI/UX designer and creator based in
-              Melbourne, Australia.
-              <br></br>
-              <br></br>I specialize in crafting elevated, intuitive, and
-              minimalistic designs for startups and small businesses to help
-              them stand out in the digital landscape with a powerful impact. 😎
-              <br></br>
-              <br></br>
-              When I am not developing or designing, I enjoy creating videos
-              that talk about frontend development, productivity and design on{" "}
-              <a
-                className="underline duration-300 ease-in-out hover:text-secondary-700"
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
-              >
-                YouTube 📸
-              </a>
-            </p>
+            I'm a passionate Designer & Coder based in the scenic landscapes of Himachal Pradesh, India. 
+            <br />
+            <br />
+            I specialize in designing and developing various websites and applications, bringing creative ideas to life through clean and high-quality code.
+            <br />
+            <br />
+             With a unique blend of design sensibility and technical expertise, I thrive on the excitement of transforming concepts into tangible realities. 
+             </p>
           </div>
         </div>
       </div>
