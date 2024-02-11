@@ -12,9 +12,9 @@ export default function Cursor() {
 
     const tl = gsap.timeline({ paused: true });
 
-    tl.to(curs.current, { height: "112px", width:"112px", ease: "expo.inout" }).to(
+    tl.to(curs.current, { height: "82px", width:"82px", ease: "expo.inout" }).to(
       svg.current,
-      { opacity: 1, width: "96px", height:"96px" },
+      { opacity: 1, width: "62px", height:"62px" },
       0
     );
 
