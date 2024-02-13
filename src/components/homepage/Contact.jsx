@@ -125,7 +125,7 @@ export default function Contact() {
         </div>
         <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
           <div className="space-y-3 ">
-            <h4 className="text-body-1 2xl:text-4xl font-semibold">Contact Details</h4>
+            <h4 className="text-body-1 2xl:text-4xl font-semibold ">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
                 href="mailto:hello@huyng.xyz"

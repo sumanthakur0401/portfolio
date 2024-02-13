@@ -35,7 +35,7 @@ export default function Works({ forwardedRef }) {
             img={memento}
             alt="Unuasual page mockup"
             name="Unusual.imaginative"
-            type="Frontend Development"
+            type="Graphic Designing"
             year="2020"
             tools="Photoshop • Lightroom • Illustator"
           />
