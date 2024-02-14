@@ -26,7 +26,7 @@ export default function Services() {
       <Heading title="services" />
       <div className="space-y-14 text-accent-300">
         <ServiceUi
-          title="my expertises."
+          title="my areas of expertises."
           description="I focus on all things design and web related. With each of my
           services, my goal is to deliver an impactful and elevating
           digital experience for everyone."
