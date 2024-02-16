@@ -40,7 +40,7 @@ export default function ServiceUi({ title, description, items }) {
           </h3>
           <p ref={body} className="max-w-md xl:max-w-2xl text-body-1 2xl:text-3xl  translate-y-10 opacity-0">{description}</p>
         </div>
-        <div ref={line} className="h-1 w-0 bg-accent-100 opacity-50 md:hidden"></div>
+        <div ref={line} className="h-1 w-0 bg-accent-300 opacity-100 md:hidden"></div>
       </div>
 
       <div ref={services}  className=" select-none leading-[2.3rem] text-secondary-400 md:leading-[2.5rem] lg:leading-[3.4rem]  translate-y-10 opacity-0">

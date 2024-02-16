@@ -44,7 +44,7 @@ export default {
         'accent-400': '#0E0E0C',
         'accent-300': '#1E0126',
         'accent-200': '#4D4D4D',
-        'accent-100': '#666666',
+        'accent-100': '#e0a0f2',
       },
     }
   },
