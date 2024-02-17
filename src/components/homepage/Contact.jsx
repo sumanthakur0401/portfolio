@@ -143,7 +143,7 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
             <a
-              href=""
+              href="https://twitter.com/thakur0401"
               className="group flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
@@ -155,7 +155,7 @@ export default function Contact() {
               </div>
             </a>
             <a
-              href=""
+              href="https://github.com/sumanthakurrr"
               className="group flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
@@ -167,7 +167,7 @@ export default function Contact() {
               </div>
             </a>
             <a
-              href=""
+              href="https://www.linkedin.com/in/iamsumanthakur/"
               className="group flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
