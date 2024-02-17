@@ -20,9 +20,9 @@ export default function Works({ forwardedRef }) {
           <Projects
             link=""
             img={ibgroup}
-            alt="Snowchild website mockup"
+            alt="Snowchild mockup"
             name="SnowChild"
-            type="Web Design • Frontend Development"
+            type="Android Design • Frontend Development"
             year="2022"
             tools="Java • XML • Android Studio"
 
@@ -44,11 +44,11 @@ export default function Works({ forwardedRef }) {
           <Projects
             link=""
             img={acc}
-            alt="Netflix clone"
-            name="Netflix Clone"
+            alt="Proud img"
+            name="Proud"
             type="Web Design • Frontend Development"
             year="2023"
-            tools="HTML • CSS • JavaScript"
+            tools="HTML • CSS • JavaScript • Nextjs"
           />
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
@@ -64,13 +64,13 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link="p"
+            link=""
             img={sunnyside}
-            alt="proudproject mockup"
-            name="Proud"
-            type="Web Development • Frontend Development"
-            year="2022"
-            tools="HTML • CSS • JavaScript • NextJs"
+            alt="netflix mockup"
+            name="Netflix"
+            type="Frontend Development"
+            year="2023"
+            tools="HTML • CSS"
           />
          
         </div>

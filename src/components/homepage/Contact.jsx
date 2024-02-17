@@ -49,7 +49,7 @@ export default function Contact() {
             Have an awesome idea? Let&apos;s bring it to life.
           </h3>
           <p ref={body} className="mt-4 max-w-md 2xl:max-w-2xl text-body-2 2xl:text-4xl text-secondary-600 translate-y-10 opacity-0">
-            I am currently not available for freelance work. I am accepting new projects starting from February 2022.
+            Want to contact? Fill the form down below or can view my digital spaces!
           </p>
           <form
             name="contact"
@@ -128,12 +128,12 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold ">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="mailto:hello@huyng.xyz"
+                href="mailto:suman040100@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>sumanthakur0401@gmail.com</span>
+                <span>suman040100@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
              
@@ -142,42 +142,42 @@ export default function Contact() {
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
-              <a
-                href=""
-                className="group flex items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="simple-icons:twitter" color="#666" />
-                <div className="relative">
-                  <span>Twitter</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a>
-              <a
-                href=""
-                className="group flex items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="mdi:github" color="#666" />
-                <div className="relative">
-                  <span>Github</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a>
-              <a
-                href=""
-                className="group group flex w-fit items-center space-x-2"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Icon icon="mdi:linkedin" color="#666" />
-                <div className="relative">
-                  <span>LinkedIn</span>
-                  <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
-                </div>
-              </a>
+            <a
+              href=""
+              className="group flex items-center space-x-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="simple-icons:twitter" className="text-accent-300 group-hover:text-blue-400 w-6" />
+              <div className="relative">
+                <span>Twitter</span>
+                <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </div>
+            </a>
+            <a
+              href=""
+              className="group flex items-center space-x-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="simple-icons:github" className="text-accent-300 group-hover:text-purple-800 w-6" />
+              <div className="relative">
+                <span>Github</span>
+                <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </div>
+            </a>
+            <a
+              href=""
+              className="group flex items-center space-x-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="simple-icons:linkedin" className="text-accent-300 group-hover:text-blue-700 w-6" />
+              <div className="relative">
+                <span>LinkedIn</span>
+                <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </div>
+            </a>
               
             </div>
           </div>
