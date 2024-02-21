@@ -18,7 +18,7 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link=""
+            link="https://github.com/sumanthakurrr/SnowChild"
             img={ibgroup}
             alt="Snowchild mockup"
             name="SnowChild"
@@ -31,7 +31,7 @@ export default function Works({ forwardedRef }) {
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link=""
+            link="https://www.instagram.com/unusual.imaginative/"
             img={memento}
             alt="Unuasual page mockup"
             name="Unusual.imaginative"
@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link=""
+            link="https://github.com/sumanthakurrr/Proud"
             img={acc}
             alt="Proud img"
             name="Proud"
@@ -53,7 +53,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
-            link=""
+            link="https://sumanual.vercel.app/"
             img={daddy}
             alt="sumanual page mockup"
             name="Sumanual"
@@ -64,7 +64,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link=""
+            link="https://github.com/sumanthakurrr/Netflix-clone"
             img={sunnyside}
             alt="netflix mockup"
             name="Netflix"

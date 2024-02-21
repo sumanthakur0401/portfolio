@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
       <div
         ref={imgContainer}
-        className="mt-[10%] absolute w-[65%] h-[80%] overflow-hidden flex items-center justify-center"
+        className="mt-[10%] absolute w-[115%] h-[90%] overflow-hidden flex items-center justify-center"
       >
         <img
           ref={img}
