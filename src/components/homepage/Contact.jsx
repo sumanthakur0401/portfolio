@@ -2,9 +2,53 @@ import { Icon } from "@iconify/react";
 import { useEffect, useState, useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
 import { gsap } from "gsap";
+import emailjs from '@emailjs/browser';
 import Heading from "../ui/Heading";
 
 export default function Contact() {
+  const form = useRef();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const validateEmail = (email) => {
+    const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return regex.test(String(email).toLowerCase());
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    if (name.trim() === '') {
+      setErrorMessage('Please enter your name.');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Please enter a valid email address.');
+      return;
+    }
+
+    if (message.trim() === '') {
+      setErrorMessage('Please write your message.');
+      return;
+    }
+
+    emailjs
+      .sendForm('service_efxwscv', 'template_bpycjrj', form.current, {
+        publicKey: '6VELQjAfYbrTMdcSv',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
   const heading = useRef(null)
@@ -41,7 +85,6 @@ export default function Contact() {
       aria-label="contact me"
     >
       
-      
       <Heading title="Contact" />
       <div ref={contactSection} className="mt-10 flex flex-col gap-20 md:grid md:grid-cols-6 md:px-12">
         <div className="col-span-4">
@@ -58,6 +101,8 @@ export default function Contact() {
             // eslint-disable-next-line react/no-unknown-property
             className="mt-10 font-grotesk"
             method="POST" 
+            ref={form} 
+            onSubmit={sendEmail}
           >
             <input type="hidden" name="form-name" value="contact"/>
             <div className="grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
@@ -66,7 +111,7 @@ export default function Contact() {
                     required
                     type="text"
                     id="name"
-                    name="name"
+                    name="from_name"
                     className="peer block w-full appearance-none border-0 border-b border-secondary-600 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                     placeholder=" "
                   />
@@ -81,7 +126,7 @@ export default function Contact() {
                 <input
                   required
                   type="text"
-                  name="email"
+                  name="from_email"
                   id="email"
                   className="peer block w-full appearance-none border-0 border-b border-secondary-600 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                   placeholder=" "
@@ -123,7 +168,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-        <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-0 md:grid-cols-1">
+        <div className="col-span-2 grid grid-cols-1 gap-x-4 gap-y-8 text-accent-300 sm:grid-cols-2 sm:gap-y-10 md:grid-cols-1">
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold ">Contact Details</h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
@@ -139,6 +184,27 @@ export default function Contact() {
              
             </div>
           </div>
+
+          <div className="space-y-3 ">
+            <h4 className="text-body-1 2xl:text-4xl font-semibold">Certifications</h4>
+            <div className="space-y-3 text-body-2 2xl:text-3xl">
+            <a
+              href="https://coursera.org/share/da71af1eda7ec0c5a1b420384a52c607"
+              className="group flex items-center space-x-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="simple-icons:coursera" className="text-accent-300 group-hover:text-blue-700 w-6" />
+              <div className="relative">
+                <span>Java Full-Stack Dev.</span>
+                <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </div>
+            </a>
+              
+            </div>
+          </div>
+
+
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
