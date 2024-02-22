@@ -18,7 +18,7 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://github.com/sumanthakurrr/SnowChild"
+            link="https://github.com/sumanthakur0401/SnowChild"
             img={ibgroup}
             alt="Snowchild mockup"
             name="SnowChild"
@@ -42,7 +42,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
           <Projects
-            link="https://github.com/sumanthakurrr/Proud"
+            link="https://github.com/sumanthakur0401/proud-project"
             img={acc}
             alt="Proud img"
             name="Proud"
@@ -64,7 +64,7 @@ export default function Works({ forwardedRef }) {
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
         <Projects
-            link="https://github.com/sumanthakurrr/Netflix-clone"
+            link="https://github.com/sumanthakur0401/Netflix-Clone"
             img={sunnyside}
             alt="netflix mockup"
             name="Netflix"
