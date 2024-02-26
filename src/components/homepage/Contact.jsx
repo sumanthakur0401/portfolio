@@ -221,7 +221,7 @@ export default function Contact() {
               </div>
             </a>
             <a
-              href="https://github.com/sumanthakurrr"
+              href="https://github.com/sumanthakur0401"
               className="group flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
