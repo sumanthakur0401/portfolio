@@ -189,6 +189,19 @@ export default function Contact() {
             <h4 className="text-body-1 2xl:text-4xl font-semibold">Certifications</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
             <a
+              href="https://www.coursera.org/account/accomplishments/professional-cert/PZPWUN3PLXXG"
+              className="group flex items-center space-x-2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon icon="simple-icons:coursera" className="text-accent-300 group-hover:text-blue-700 w-6" />
+              <div className="relative">
+                <span>Meta Android Developer</span>
+                <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+              </div>
+            </a>
+              
+            <a
               href="https://coursera.org/share/da71af1eda7ec0c5a1b420384a52c607"
               className="group flex items-center space-x-2"
               target="_blank"
